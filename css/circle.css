@@ -1,0 +1,132 @@
+/*
+ *  Usage:
+ *
+ *    <div class="wppl-circle">
+ *      <div class="wppl-circle1 wppl-child"></div>
+ *      <div class="wppl-circle2 wppl-child"></div>
+ *      <div class="wppl-circle3 wppl-child"></div>
+ *      <div class="wppl-circle4 wppl-child"></div>
+ *      <div class="wppl-circle5 wppl-child"></div>
+ *      <div class="wppl-circle6 wppl-child"></div>
+ *      <div class="wppl-circle7 wppl-child"></div>
+ *      <div class="wppl-circle8 wppl-child"></div>
+ *      <div class="wppl-circle9 wppl-child"></div>
+ *      <div class="wppl-circle10 wppl-child"></div>
+ *      <div class="wppl-circle11 wppl-child"></div>
+ *      <div class="wppl-circle12 wppl-child"></div>
+ *    </div>
+ *
+ */
+.wppl-circle {
+  margin: 40px auto;
+  width: 40px;
+  height: 40px;
+  position: relative; }
+  .wppl-circle .wppl-child {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0; }
+  .wppl-circle .wppl-child:before {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+    height: 15%;
+    border-radius: 100%;
+    -webkit-animation: wppl-circleBounceDelay 1.2s infinite ease-in-out both;
+            animation: wppl-circleBounceDelay 1.2s infinite ease-in-out both; }
+  .wppl-circle .wppl-circle2 {
+    -webkit-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+            transform: rotate(30deg); }
+  .wppl-circle .wppl-circle3 {
+    -webkit-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+            transform: rotate(60deg); }
+  .wppl-circle .wppl-circle4 {
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg); }
+  .wppl-circle .wppl-circle5 {
+    -webkit-transform: rotate(120deg);
+        -ms-transform: rotate(120deg);
+            transform: rotate(120deg); }
+  .wppl-circle .wppl-circle6 {
+    -webkit-transform: rotate(150deg);
+        -ms-transform: rotate(150deg);
+            transform: rotate(150deg); }
+  .wppl-circle .wppl-circle7 {
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg); }
+  .wppl-circle .wppl-circle8 {
+    -webkit-transform: rotate(210deg);
+        -ms-transform: rotate(210deg);
+            transform: rotate(210deg); }
+  .wppl-circle .wppl-circle9 {
+    -webkit-transform: rotate(240deg);
+        -ms-transform: rotate(240deg);
+            transform: rotate(240deg); }
+  .wppl-circle .wppl-circle10 {
+    -webkit-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+            transform: rotate(270deg); }
+  .wppl-circle .wppl-circle11 {
+    -webkit-transform: rotate(300deg);
+        -ms-transform: rotate(300deg);
+            transform: rotate(300deg); }
+  .wppl-circle .wppl-circle12 {
+    -webkit-transform: rotate(330deg);
+        -ms-transform: rotate(330deg);
+            transform: rotate(330deg); }
+  .wppl-circle .wppl-circle2:before {
+    -webkit-animation-delay: -1.1s;
+            animation-delay: -1.1s; }
+  .wppl-circle .wppl-circle3:before {
+    -webkit-animation-delay: -1s;
+            animation-delay: -1s; }
+  .wppl-circle .wppl-circle4:before {
+    -webkit-animation-delay: -0.9s;
+            animation-delay: -0.9s; }
+  .wppl-circle .wppl-circle5:before {
+    -webkit-animation-delay: -0.8s;
+            animation-delay: -0.8s; }
+  .wppl-circle .wppl-circle6:before {
+    -webkit-animation-delay: -0.7s;
+            animation-delay: -0.7s; }
+  .wppl-circle .wppl-circle7:before {
+    -webkit-animation-delay: -0.6s;
+            animation-delay: -0.6s; }
+  .wppl-circle .wppl-circle8:before {
+    -webkit-animation-delay: -0.5s;
+            animation-delay: -0.5s; }
+  .wppl-circle .wppl-circle9:before {
+    -webkit-animation-delay: -0.4s;
+            animation-delay: -0.4s; }
+  .wppl-circle .wppl-circle10:before {
+    -webkit-animation-delay: -0.3s;
+            animation-delay: -0.3s; }
+  .wppl-circle .wppl-circle11:before {
+    -webkit-animation-delay: -0.2s;
+            animation-delay: -0.2s; }
+  .wppl-circle .wppl-circle12:before {
+    -webkit-animation-delay: -0.1s;
+            animation-delay: -0.1s; }
+
+@-webkit-keyframes wppl-circleBounceDelay {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  40% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@keyframes wppl-circleBounceDelay {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  40% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }

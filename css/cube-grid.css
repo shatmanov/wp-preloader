@@ -1,0 +1,75 @@
+/*
+ *  Usage:
+ *
+ *    <div class="wppl-cube-grid">
+ *      <div class="wppl-cube wppl-cube1"></div>
+ *      <div class="wppl-cube wppl-cube2"></div>
+ *      <div class="wppl-cube wppl-cube3"></div>
+ *      <div class="wppl-cube wppl-cube4"></div>
+ *      <div class="wppl-cube wppl-cube5"></div>
+ *      <div class="wppl-cube wppl-cube6"></div>
+ *      <div class="wppl-cube wppl-cube7"></div>
+ *      <div class="wppl-cube wppl-cube8"></div>
+ *      <div class="wppl-cube wppl-cube9"></div>
+ *    </div>
+ *
+ */
+.wppl-cube-grid {
+  width: 40px;
+  height: 40px;
+  margin: 40px auto;
+  /*
+   * Spinner positions
+   * 1 2 3
+   * 4 5 6
+   * 7 8 9
+   */ }
+  .wppl-cube-grid .wppl-cube {
+    width: 33%;
+    height: 33%;
+    float: left;
+    -webkit-animation: wppl-cubeGridScaleDelay 1.3s infinite ease-in-out;
+            animation: wppl-cubeGridScaleDelay 1.3s infinite ease-in-out; }
+  .wppl-cube-grid .wppl-cube1 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  .wppl-cube-grid .wppl-cube2 {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s; }
+  .wppl-cube-grid .wppl-cube3 {
+    -webkit-animation-delay: 0.4s;
+            animation-delay: 0.4s; }
+  .wppl-cube-grid .wppl-cube4 {
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s; }
+  .wppl-cube-grid .wppl-cube5 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  .wppl-cube-grid .wppl-cube6 {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s; }
+  .wppl-cube-grid .wppl-cube7 {
+    -webkit-animation-delay: 0.0s;
+            animation-delay: 0.0s; }
+  .wppl-cube-grid .wppl-cube8 {
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s; }
+  .wppl-cube-grid .wppl-cube9 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+
+@-webkit-keyframes wppl-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1); }
+  35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1); } }
+
+@keyframes wppl-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1); }
+  35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1); } }

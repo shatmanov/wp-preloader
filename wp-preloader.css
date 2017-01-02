@@ -1,0 +1,52 @@
+body.WPpre-loader {
+	overflow: hidden;;
+}
+#WPpreloader_container {
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+	-webkit-transition-delay: 0;
+	transition-delay: 0;
+	-webkit-transition-property: all;
+	-webkit-transition-duration: 0.4s;
+	-webkit-transition-timing-function: ease-in-out;
+	transition-property: all;
+	transition-duration: 0.4s;
+	transition-timing-function: ease-in-out;
+}
+body.WPpre-loader #WPpreloader_container {
+	opacity: 1;
+	visibility: visible;
+}
+
+
+
+#WPpreloader_container .WPpreloader_wrap {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -30px;
+    margin-top: -30px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 10px;
+}
+#WPpreloader_container .WPpreloader_wrap .WPpreloader_text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -160px;
+    margin-top: 35px;
+    width: 320px;
+    text-align: center;
+    font-size: 14px;
+}

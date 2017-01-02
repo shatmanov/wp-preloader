@@ -1,0 +1,55 @@
+/*
+ *  Usage:
+ *
+ *    <div class="wppl-wave">
+ *      <div class="wppl-rect wppl-rect1"></div>
+ *      <div class="wppl-rect wppl-rect2"></div>
+ *      <div class="wppl-rect wppl-rect3"></div>
+ *      <div class="wppl-rect wppl-rect4"></div>
+ *      <div class="wppl-rect wppl-rect5"></div>
+ *    </div>
+ *
+ */
+.wppl-wave {
+  margin: 40px auto;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  font-size: 10px; }
+  .wppl-wave .wppl-rect {
+    height: 100%;
+    width: 6px;
+    display: inline-block;
+    -webkit-animation: wppl-waveStretchDelay 1.2s infinite ease-in-out;
+            animation: wppl-waveStretchDelay 1.2s infinite ease-in-out; }
+  .wppl-wave .wppl-rect1 {
+    -webkit-animation-delay: -1.2s;
+            animation-delay: -1.2s; }
+  .wppl-wave .wppl-rect2 {
+    -webkit-animation-delay: -1.1s;
+            animation-delay: -1.1s; }
+  .wppl-wave .wppl-rect3 {
+    -webkit-animation-delay: -1s;
+            animation-delay: -1s; }
+  .wppl-wave .wppl-rect4 {
+    -webkit-animation-delay: -0.9s;
+            animation-delay: -0.9s; }
+  .wppl-wave .wppl-rect5 {
+    -webkit-animation-delay: -0.8s;
+            animation-delay: -0.8s; }
+
+@-webkit-keyframes wppl-waveStretchDelay {
+  0%, 40%, 100% {
+    -webkit-transform: scaleY(0.4);
+            transform: scaleY(0.4); }
+  20% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1); } }
+
+@keyframes wppl-waveStretchDelay {
+  0%, 40%, 100% {
+    -webkit-transform: scaleY(0.4);
+            transform: scaleY(0.4); }
+  20% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1); } }

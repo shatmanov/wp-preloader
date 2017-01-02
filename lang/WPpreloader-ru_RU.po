@@ -1,0 +1,1010 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPpreloader\n"
+"POT-Creation-Date: 2015-11-18 14:57+0600\n"
+"PO-Revision-Date: 2015-11-18 14:57+0600\n"
+"Last-Translator: zhan.shatmanov <zhan@shatmanov.com>\n"
+"Language-Team: shatmanov.com <zhan@shatmanov.com>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/help.php:1 ../wp-preloader.php:81
+msgid "Help"
+msgstr "Помощь"
+
+#: ../admin/help.php:3
+msgid ""
+"WP preLoader is a preloader plugin for wordpress. This plugin will enable "
+"preloader when loading your site. Visitor will see a loader. <br />You have "
+"11 different spinners to suit your designs."
+msgstr ""
+"WP preLoader это прелоадер плагин для wordpress. Этот плагин позволяет "
+"включить прилоадер при загрузке вашего сайта. Посетитель увидит загрузчик. "
+"<br /> В вашем распоряжении 11 спиннеров, чтобы удовлетворить вашим "
+"потребностям."
+
+#: ../admin/help.php:4
+msgid ""
+"You can select loader style, color & others by using the options of this "
+"plugin. This plugin works with any WP theme. <strong>No coding required.</"
+"strong>"
+msgstr ""
+"Вы можете изменить  стиль загрузчика, цвет и другие настройки этого плагина. "
+"Этот плагин работает с любыми WP темами. <strong>Нет необходимости в кодинге."
+"</strong>"
+
+#: ../admin/help.php:5
+msgid "How It Work:"
+msgstr "Как это работает:"
+
+#: ../admin/main.php:46
+msgid "On/Off WP preLoader"
+msgstr "Включить/Выключить WP preLoader"
+
+#: ../admin/main.php:57
+msgid "Loading spinner style"
+msgstr "Стиль загрузочного спиннера"
+
+#: ../admin/main.php:73
+msgid "Loading text"
+msgstr "Текст загрузки"
+
+#: ../admin/main.php:77
+msgid "Background color"
+msgstr "Цвет фона"
+
+#: ../admin/main.php:81
+msgid "Spinner & text color"
+msgstr "Цвет спиннера и текста"
+
+#: ../admin/main.php:86
+msgid "Save"
+msgstr "Сохранить"
+
+#: ../functions/activate.php:3
+msgid "Loading"
+msgstr "Загрузка"
+
+#: ../wp-preloader.php:38 ../wp-preloader.php:71
+msgid "WP preLoader"
+msgstr "WP preLoader"
+
+#: ../wp-preloader.php:51
+msgid "Settings"
+msgstr "Настройки"
+
+#: ../wp-preloader.php:80
+msgid "General settings"
+msgstr "Общие настройки"
+
+#~ msgid "Check"
+#~ msgstr "Проверить"
+
+#~ msgid "504 Gateway Timeout!"
+#~ msgstr "504 Gateway Timeout!"
+
+#~ msgid "Try again!"
+#~ msgstr "Попробуйте еще раз!"
+
+#~ msgid "Error!"
+#~ msgstr "Ошибка!"
+
+#~ msgid "An error occurred while running the script. Try again!"
+#~ msgstr "Ошибка при выполнения скрипта. Попробуйте еще раз!"
+
+#~ msgid "Oops..."
+#~ msgstr "Ой..."
+
+#~ msgid "Your requested site is offline!"
+#~ msgstr "Запрашиваемый вами сайт в оффлайне!"
+
+#~ msgid "Not a Valid Domain!"
+#~ msgstr "Неверный формат домена!"
+
+#~ msgid "500 Internal Server Error!"
+#~ msgstr "500 Internal Server Error!"
+
+#~ msgid "Authorization error!"
+#~ msgstr "Ошибка авторизации!"
+
+#~ msgid "You need to"
+#~ msgstr "Вам нужно"
+
+#~ msgid "login"
+#~ msgstr "авторизоваться"
+
+#~ msgid "or"
+#~ msgstr "или "
+
+#~ msgid "signup"
+#~ msgstr "зарегистрироваться"
+
+#~ msgid "to use"
+#~ msgstr "чтобы использовать"
+
+#~ msgid "update seo information"
+#~ msgstr "обновить seo информацию"
+
+#~ msgid "SEOAnalyzer"
+#~ msgstr "SEOAnalyzer"
+
+#~ msgid "Websites"
+#~ msgstr "Сайты"
+
+#~ msgid "Table of Contents"
+#~ msgstr "Содержание"
+
+#~ msgid "AddThis api key"
+#~ msgstr "AddThis api key"
+
+#~ msgid "Google api key"
+#~ msgstr "Google api key"
+
+#~ msgid "Tracking Code"
+#~ msgstr "Код отслеживания"
+
+#~ msgid "Update SEO information"
+#~ msgstr "Обновить seo информацию"
+
+#~ msgid "Main image"
+#~ msgstr "Главное изображение"
+
+#~ msgid "Style of site"
+#~ msgstr "Стиль сайта"
+
+#~ msgid "Clear data"
+#~ msgstr "Очистить данные"
+
+#~ msgid "top"
+#~ msgstr "вверх"
+
+#~ msgid ""
+#~ "SEOAnalyzer is a website reviewer and SEO tool. That allow you to collect "
+#~ "different SEO statistics like Alexa rank, Google page rank, WHOIS info "
+#~ "and various social networking statistics etc.. The reports can be viewed "
+#~ "not only on the site, but they can also be downloaded as PDF file."
+#~ msgstr ""
+#~ "SEOAnalyzer это сайт рецензент и SEO инструмент. Это позволит вам "
+#~ "собирать различные статистические данные, такие как SEO Alexa ранга, "
+#~ "Google ранг страницы, WHOIS информацию и различные статистические данные "
+#~ "социальных сетей и т.д .. Отчеты можно просмотреть не только на сайте, но "
+#~ "они также могут быть скачаны в PDF-файл."
+
+#~ msgid ""
+#~ "You can connect your AddThis account to get the analyst to exchange links "
+#~ "in social networks."
+#~ msgstr ""
+#~ "Вы можете подключить свой AddThis аккаунт, чтобы вести аналитику обмена "
+#~ "ссылками в социальных сетях."
+
+#~ msgid ""
+#~ "If you leave this field empty - users will still be able to share content "
+#~ "in social networks, but you can not get statistics."
+#~ msgstr ""
+#~ "Если оставить поле пустым - пользователи все равно смогут делиться "
+#~ "контентом в социальных сетях, но вы не сможете ввести статистику."
+
+#~ msgid "How to get AddThis api key:"
+#~ msgstr "Как получить AddThis api key:"
+
+#~ msgid ""
+#~ "Go to the site and AddThis <a href=\"https://www.addthis.com/login\" "
+#~ "target=\"_blank\">sign in</a> using your username and password. If you "
+#~ "are not registered, then <a href=\"https://www.addthis.com/register\" "
+#~ "target=\"_blank\">create an account</a>."
+#~ msgstr ""
+#~ "Переходим на сайт AddThis и <a href=\"https://www.addthis.com/login\" "
+#~ "target=\"_blank\">входим в систему</a> используя свой логин и пароль. "
+#~ "Если вы не зарегистрированны, то <a href=\"https://www.addthis.com/"
+#~ "register\" target=\"_blank\">регистрируемся</a>."
+
+#~ msgid ""
+#~ "After you have entered, we create a new profile. To do this, click on the "
+#~ "Add Profile"
+#~ msgstr ""
+#~ "После того как вы вошли, создаем новый профиль. Для этого нажимаем на "
+#~ "Добавить Профиль"
+
+#~ msgid "Enter the name of the profile. For example: SEOAnalyzer"
+#~ msgstr "Вводим название профиля. Например: SEOAnalyzer"
+
+#~ msgid ""
+#~ "After adding a profile you will be taken to the main page, which will be "
+#~ "given ID"
+#~ msgstr ""
+#~ "После добавления профиля вы попадете на основную страницу, где будет "
+#~ "указан ID"
+
+#~ msgid "Copy and paste the ID in the field AddThis api key"
+#~ msgstr "Копируем ID и вставляем в поле AddThis api key"
+
+#~ msgid ""
+#~ "And save. Now you can get the analyst to exchange links in social "
+#~ "networks."
+#~ msgstr ""
+#~ "И сохраняем. Теперь вы можете ввести аналитику обмена ссылками в "
+#~ "социальных сетях."
+
+#~ msgid ""
+#~ "To get Google api key, you must have Google account. If not, then you "
+#~ "need to register."
+#~ msgstr ""
+#~ "Чтобы получить Google api key у вас должен быть Google аккаунт. Если его "
+#~ "нет, то необходимо зарегистрироваться."
+
+#~ msgid ""
+#~ "If you leave the field blank, the map will still appear, but the free API "
+#~ "is a limit of 1000 hits a day. A free API key is the default for all who "
+#~ "install the plugin."
+#~ msgstr ""
+#~ "Если оставить поле пустым, то карта будет все равно отображаться, но у "
+#~ "бесплатного API стоит лимит в 1000 показов в день. А бесплатный API key "
+#~ "по умолчанию стоит у всех кто установил плагин."
+
+#~ msgid ""
+#~ "Open the <a href=\"https://console.developers.google.com/project\" target="
+#~ "\"_blank\">project</a> page. And create a project"
+#~ msgstr ""
+#~ "Откройте страницу <a href=\"https://console.developers.google.com/project"
+#~ "\" target=\"_blank\">Проекты</a>. И создайте проект"
+
+#~ msgid "Enter the name of the project. For example: SEOAnalyzer"
+#~ msgstr "Введите название проекта. Например: SEOAnalyzer"
+
+#~ msgid "Click on the Create button."
+#~ msgstr "Нажимаем на кнопку создать."
+
+#~ msgid ""
+#~ "After create a project, you get to the page the project. Left in the "
+#~ "menu, click on the <strong>APIs & auth</strong>. In the list that "
+#~ "appears, click on the <strong>APIs</strong>"
+#~ msgstr ""
+#~ "После того как создаться проект, вы попадете на страницу проекта. Слева, "
+#~ "в меню нажмите на <strong>APIs & auth</strong>. В появившемся списке "
+#~ "нажмите на <strong>APIs</strong>"
+
+#~ msgid ""
+#~ "On page APIs are looking for block <strong>Google Maps APIs</strong>. At "
+#~ "the bottom of the unit by clicking on the <strong>More</strong>. Of the "
+#~ "list click on the <strong>Google Maps Embed API </strong>"
+#~ msgstr ""
+#~ "На странице APIs ищем блок <strong>Google Maps APIs</strong>. В низу "
+#~ "блока нажимем на <strong>More</strong>. Из всего списка нажимаем на "
+#~ "<strong>Google Maps Embed API</strong>"
+
+#~ msgid ""
+#~ "On the page of Google Maps Embed API click on the button Enable API. Now "
+#~ "go to Page Credentials"
+#~ msgstr ""
+#~ "На странице Google Maps Embed API нажимаем на кнопку Enable API. Теперь "
+#~ "переходим на страницу Credentials"
+
+#~ msgid "On the Credentials page, select the API key"
+#~ msgstr "На странице Credentials выбираем API key"
+
+#~ msgid "In the pop-up window, select the Browser key"
+#~ msgstr "В сплывающем окне выбираем Browser key"
+
+#~ msgid ""
+#~ "Enter the name of the key. For example: SEOAnalyzer. Also specify which "
+#~ "site to accept requests or leave blank."
+#~ msgstr ""
+#~ "Введите название ключа. Например: SEOAnalyzer. А так же укажите с какого "
+#~ "сайта принимать запросы или же оставте поле пустым."
+
+#~ msgid ""
+#~ "After you click on the Create button on the screen will indicate API key"
+#~ msgstr ""
+#~ "После того как вы нажмете на кнопку создать на экране выведется API ключ"
+
+#~ msgid ""
+#~ "Copy it and paste in the field Google api key. Now save the settings of "
+#~ "the plugin."
+#~ msgstr ""
+#~ "Копируем его и вставляем в поле Google api key. Теперь сохраняем "
+#~ "настройки плагина."
+
+#~ msgid ""
+#~ "In this field you can insert a tracking code to conduct analytics on site "
+#~ "traffic."
+#~ msgstr ""
+#~ "В это поле вы можете вставить трэкинг код для ведения аналитики по "
+#~ "посещаймости сайта."
+
+#~ msgid "Insert the tracking code into the field and save the settings."
+#~ msgstr "Вставте код отслеживание в поле и сохраните настройки."
+
+#~ msgid ""
+#~ "In this section you can choose when users can update data in the database "
+#~ "on the site."
+#~ msgstr ""
+#~ "В данном пункте вы можете выбрать когда пользователи могут обновить "
+#~ "данные в базе по сайту."
+
+#~ msgid ""
+#~ "Consider this item in detail. After the user has entered the URL of the "
+#~ "site to check the SEO this website is processed and recorded in the "
+#~ "database. In the future request on this site will be the output from the "
+#~ "database and can no longer be relevant. Therefore, under each site wrote "
+#~ "last update date information."
+#~ msgstr ""
+#~ "Рассмотрим данный пункт подробнее. После того как пользователь ввел URL "
+#~ "сайта для проверки SEO данный сайт обрабатывается и заноситься в базу. "
+#~ "Дальнейший запрос по данному сайту будет уже выводиться из базы и могут "
+#~ "быть уже не актуальными. Поэтому под каждым сайтом пишеться последняя "
+#~ "дата обновления информации."
+
+#~ msgid "This is done to reduce the load on the site server."
+#~ msgstr "Это сделано, чтобы уменьшить нагрузку на сайт и сервер."
+
+#~ msgid ""
+#~ "If you choose <strong>never</strong>. That information about the site "
+#~ "after the addition of the database will not be updated. And if you put, "
+#~ "for example, 30 days - after adding the site to the database, and after "
+#~ "30 days at the site appears a button to <strong>update seo information</"
+#~ "strong>."
+#~ msgstr ""
+#~ "Если вы выберете <strong>никогда</strong>. То информация о сайте после "
+#~ "добавления в базу не будет обновляться. А если поставить, например, 30 "
+#~ "дней - то после добавления сайта в базу и по прошествию 30 дней на сайте "
+#~ "появиться кнопочка <strong>обновить seo информацию</strong>."
+
+#~ msgid "After pressing the button, the information on the website update."
+#~ msgstr "После нажатия на эту кнопку информация о сайте обновиться."
+
+#~ msgid ""
+#~ "You can change the image on the homepage of the site, you need to choose "
+#~ "one of below the given styles:"
+#~ msgstr ""
+#~ "Вы можете изменить изображение на главной странице сайта для этого вам "
+#~ "необходимо выбрать один из ниже приведенных стилей:"
+
+#~ msgid "default"
+#~ msgstr "по умолчанию"
+
+#~ msgid "Style 1"
+#~ msgstr "Стиль 1"
+
+#~ msgid "Style 2"
+#~ msgstr "Стиль 2"
+
+#~ msgid "Style 3"
+#~ msgstr "Стиль 3"
+
+#~ msgid "Style 4"
+#~ msgstr "Стиль 4"
+
+#~ msgid "Style 5"
+#~ msgstr "Стиль 5"
+
+#~ msgid "Style 6"
+#~ msgstr "Стиль 6"
+
+#~ msgid ""
+#~ "You can change the style of site, you need to choose one of styles. You "
+#~ "can add your own style to do this, insert your style in folder "
+#~ "SEOAnalyzer/theme/css/template/"
+#~ msgstr ""
+#~ "Вы можете изменить стиль сайта, Вам необходимо выбрать один из стилей. Вы "
+#~ "можете добавить свой собственный стиль, чтобы сделать это, вставьте стиль "
+#~ "в папку SEOAnalyzer/theme/css/template/"
+
+#~ msgid "As an example, you can use default.css"
+#~ msgstr "В качестве примера вы можете использовать default.css"
+
+#~ msgid ""
+#~ "After pressing the button, all data are cleared (database, screenshots)."
+#~ msgstr ""
+#~ "После нажатия на кнопку все данные очистяться (база данных, скриншоты)."
+
+#~ msgid "Data are updated!"
+#~ msgstr "Данные обновлены!"
+
+#~ msgid "The base is cleared!"
+#~ msgstr "База очищенна!"
+
+#~ msgid "Who can check?"
+#~ msgstr "Кто может проверить?"
+
+#~ msgid "all"
+#~ msgstr "все"
+
+#~ msgid "nobody"
+#~ msgstr "никто"
+
+#~ msgid "registered users"
+#~ msgstr "зарегистрированные пользователи"
+
+#~ msgid "help"
+#~ msgstr "помощь"
+
+#~ msgid "never"
+#~ msgstr "никогда"
+
+#~ msgid "clear"
+#~ msgstr "очистить"
+
+#~ msgid "Theme"
+#~ msgstr "Стиль"
+
+#~ msgid "The site is removed"
+#~ msgstr "Сайт удален"
+
+#~ msgid "To hide this notice"
+#~ msgstr "Скрыть это уведомление"
+
+#~ msgid "Data are updated"
+#~ msgstr "Данные обновлены"
+
+#~ msgid "Title"
+#~ msgstr "Заголовок"
+
+#~ msgid "Description"
+#~ msgstr "Описание"
+
+#~ msgid "Keywords"
+#~ msgstr "Ключевые слова"
+
+#~ msgid "WHOIS Information"
+#~ msgstr "WHOIS информация"
+
+#~ msgid "Web server"
+#~ msgstr "Веб-сервер"
+
+#~ msgid "Charset server / page"
+#~ msgstr "Кодировка сервера / страницы"
+
+#~ msgid "Check domain"
+#~ msgstr "Проверка домена"
+
+#~ msgid "Checking WHOIS"
+#~ msgstr "Проверка WHOIS"
+
+#~ msgid "Determining the age of a domain"
+#~ msgstr "Определение возраста домена"
+
+#~ msgid "We are looking for meta tags"
+#~ msgstr "Ищем мета теги"
+
+#~ msgid "Checking Robot.txt"
+#~ msgstr "Проверка Robot.txt"
+
+#~ msgid "Checking XML Sitemap"
+#~ msgstr "Проверка XML Sitemap"
+
+#~ msgid "We are looking for errors"
+#~ msgstr "Ищем ошибки"
+
+#~ msgid "Determination CMS"
+#~ msgstr "Определение CMS"
+
+#~ msgid "Determination IP"
+#~ msgstr "Определение IP"
+
+#~ msgid "We are looking for DNS"
+#~ msgstr "Ищем DNS"
+
+#~ msgid "Determination server"
+#~ msgstr "Определение сервера"
+
+#~ msgid "Determination location"
+#~ msgstr "Определяем расположение"
+
+#~ msgid "Checking indicators on search engines"
+#~ msgstr "Проверяем показатели в поисковых системах"
+
+#~ msgid "Checking catalogs"
+#~ msgstr "Проверяем каталоги"
+
+#~ msgid "Checking PageRank"
+#~ msgstr "Проверяем PageRank"
+
+#~ msgid "Checking CY"
+#~ msgstr "Проверяем тИЦ"
+
+#~ msgid "Checking Alexa Rank"
+#~ msgstr "Проверяем Alexa Rank"
+
+#~ msgid "Checking social activity"
+#~ msgstr "Проверяем социальную активность"
+
+#~ msgid "Making a screenshot"
+#~ msgstr "Делаем скриншот"
+
+#~ msgid "Saving information"
+#~ msgstr "Сохраняем информацию"
+
+#~ msgid "Clearing the cache"
+#~ msgstr "Очистка кэша"
+
+#~ msgid "Creating page"
+#~ msgstr "Создание страницы"
+
+#~ msgid "Loading page"
+#~ msgstr "Загружаем страницу"
+
+#~ msgid "Screenshot"
+#~ msgstr "Скриншот"
+
+#~ msgid "Website"
+#~ msgstr "Сайт"
+
+#~ msgid "Last Updated"
+#~ msgstr "Последнее обновление"
+
+#~ msgid "Refresh"
+#~ msgstr "Обновить"
+
+#~ msgid "Edit"
+#~ msgstr "Редактировать"
+
+#~ msgid "Remove"
+#~ msgstr "Удалить"
+
+#~ msgid "start"
+#~ msgstr "начало"
+
+#~ msgid "prev"
+#~ msgstr "предыдущая"
+
+#~ msgid "next"
+#~ msgstr "следующая"
+
+#~ msgid "end"
+#~ msgstr "конец"
+
+#~ msgid "Data have been updated!"
+#~ msgstr "Данные были обновлены!"
+
+#~ msgid "Oops! That page can’t be found."
+#~ msgstr "Ой! Эта страница не найдена."
+
+#~ msgid "It looks like nothing was found at this location."
+#~ msgstr "Похоже, ничего не было найдено здесь."
+
+#~ msgid "Recently analyzed"
+#~ msgstr "Недавно проанализированы"
+
+#~ msgid "Sorry, no posts matched your criteria."
+#~ msgstr "Извините, нет записей, соответствующих вашему запросу."
+
+#~ msgid "SEO Information"
+#~ msgstr "SEO информация"
+
+#~ msgid "According to the Alexa.com, this site has"
+#~ msgstr "Согласно Alexa.com, этот сайт имеет ранг"
+
+#~ msgid "rank in the world wide web."
+#~ msgstr "в мировой паутине."
+
+#~ msgid ""
+#~ "Low Alexa rank indicates that the site is visited by a lot of visitors "
+#~ "and most popular in the Internet."
+#~ msgstr ""
+#~ "Низкий Alexa Rank означает, что сайт посещает много посетителей и более "
+#~ "популярный в Интернете."
+
+#~ msgid "This web site has Google PageRank"
+#~ msgstr "Этот веб-сайт имеет Google PageRank"
+
+#~ msgid "out of 10 maximum and is"
+#~ msgstr "из 10 и"
+
+#~ msgid "not"
+#~ msgstr "не"
+
+#~ msgid "listed in DMOZ"
+#~ msgstr "перечислен в DMOZ"
+
+#~ msgid "The age of"
+#~ msgstr "Возраст"
+
+#~ msgid "is"
+#~ msgstr "-"
+
+#~ msgid ""
+#~ "More then 20 Metrics to Measure & Track Success of your SEO Strategy."
+#~ msgstr ""
+#~ "Более 20 показателей измерений для достижения успехавашей SEO стратегии."
+
+#~ msgid "Optimize"
+#~ msgstr "Оптимизировать"
+
+#~ msgid "Optimize your site for organic search with better SEO."
+#~ msgstr "Оптимизируйте сайт для поиска с лучшим SEO."
+
+#~ msgid "Responsive Design"
+#~ msgstr "Отзывчивый дизайн"
+
+#~ msgid ""
+#~ "Website is fully responsive based on twitter bootstrap and adjustable on "
+#~ "any mobile or tablet screen."
+#~ msgstr ""
+#~ "Сайт полностью отзывчивый  основан на Twitter Bootstrap и подстраивается "
+#~ "на любой мобильный или планшетный экран."
+
+#~ msgid "Export Report"
+#~ msgstr "Экспорт отчета"
+
+#~ msgid "You can easily export SEO report for offline analysis."
+#~ msgstr "Вы можете легко экспортировать SEO отчет для анализа в оффлайне."
+
+#~ msgid "Ranking"
+#~ msgstr "Ранжирование"
+
+#~ msgid "Analyze your site with popular ranking system and optimize it."
+#~ msgstr ""
+#~ "Анализируйте свой сайт с популярной системы ранжирования и оптимизируйте "
+#~ "его."
+
+#~ msgid "Social Stats"
+#~ msgstr "Социальные Статистика"
+
+#~ msgid "Report of the social stats of a website."
+#~ msgstr "Отчет социального статуса вашего сайта."
+
+#~ msgid "Share Results"
+#~ msgstr "Поделиться результатом"
+
+#~ msgid "Share results SEO report of your website in social networks."
+#~ msgstr "Делитесь результатом SEO отчета вашего сайта в социальных сетях."
+
+#~ msgid "Overall site looking Good."
+#~ msgstr "В целом сайт выглядит хорошо."
+
+#~ msgid "Website Information"
+#~ msgstr "Информация по сайту"
+
+#~ msgid "Meta Tags"
+#~ msgstr "Мета-теги"
+
+#~ msgid "Crawling files"
+#~ msgstr "Сканирование файлов"
+
+#~ msgid "Robot.txt file present"
+#~ msgstr "Файл Robot.txt найден"
+
+#~ msgid "Good"
+#~ msgstr "Хорошо"
+
+#~ msgid "Robot.txt file not present"
+#~ msgstr "Файл Robot.txt не найден"
+
+#~ msgid "Bad"
+#~ msgstr "Плохо"
+
+#~ msgid "Sitemap file present"
+#~ msgstr "Файл Sitemap найден"
+
+#~ msgid "Sitemap file not present"
+#~ msgstr "Файл Sitemap не найден"
+
+#~ msgid "Checking validity of HTML"
+#~ msgstr "Проверка валидности HTML"
+
+#~ msgid "error"
+#~ msgstr "ошибок"
+
+#~ msgid "Checking validity of CSS"
+#~ msgstr "Проверка валидности CSS"
+
+#~ msgid "Page size"
+#~ msgstr "Размер страницы"
+
+#~ msgid "Kb"
+#~ msgstr "Кб"
+
+#~ msgid "Download speed"
+#~ msgstr "Скорость загрузки сайта"
+
+#~ msgid "Server"
+#~ msgstr "Сервер"
+
+#~ msgid "Server IP Address"
+#~ msgstr "IP адрес сервера"
+
+#~ msgid "The server is located in"
+#~ msgstr "Сервер расположен в"
+
+#~ msgid "DNS servers"
+#~ msgstr "DNS сервера"
+
+#~ msgid "Search Engine"
+#~ msgstr "Поисковые системы"
+
+#~ msgid "Yandex CY"
+#~ msgstr "Яндекс тИЦ (CY)"
+
+#~ msgid "Yandex Catalogue"
+#~ msgstr "Яндекс Каталог"
+
+#~ msgid "Yes"
+#~ msgstr "Да"
+
+#~ msgid "No"
+#~ msgstr "Нет"
+
+#~ msgid "Social activity"
+#~ msgstr "Социальная активность"
+
+#~ msgid "Vkontakte"
+#~ msgstr "ВКонтакте"
+
+#~ msgid "Moi mir"
+#~ msgstr "Мой мир"
+
+#~ msgid "Odnoklassniki"
+#~ msgstr "Однокласники"
+
+#~ msgid "Updated!"
+#~ msgstr "Обновлено!"
+
+#~ msgid "An error occurred while copying the image! <br>"
+#~ msgstr "Ошибка при копировании изображения!<br>"
+
+#~ msgid ""
+#~ "Enter the name of the key. For example: SEO Analyzer. Also specify which "
+#~ "site to accept requests or leave blank."
+#~ msgstr ""
+#~ "Введите название ключа. Например: SEOAnalyzer. А так же укажите с какого "
+#~ "сайта принимать запросы или же оставте поле пустым."
+
+#~ msgid ""
+#~ "WooCommerce Wooppay Payment Gateway depends on the last version of %s to "
+#~ "work!"
+#~ msgstr ""
+#~ "Для работы WooCommerce Wooppay Payment Gateway требуется последняя версия "
+#~ "%s!"
+
+#~ msgid "Payment completed."
+#~ msgstr "Оплата завершена."
+
+#~ msgid "Gateway Disabled"
+#~ msgstr "Шлюз отключен"
+
+#~ msgid "Wooppay does not support your store currency."
+#~ msgstr "Wooppay не поддерживает валюту вашего магазина."
+
+#~ msgid "Enable/Disable"
+#~ msgstr "Включить/Выключить"
+
+#~ msgid "Enable Wooppay gateway"
+#~ msgstr "Включить платежный шлюз Wooppay"
+
+#~ msgid "Wooppay"
+#~ msgstr "Wooppay"
+
+#~ msgid "If the field is empty, appears logo"
+#~ msgstr "Если поле пустое, появляется логотип"
+
+#~ msgid "Wooppay logo"
+#~ msgstr "Логотип Wooppay"
+
+#~ msgid "Enable Wooppay logo"
+#~ msgstr "Включить логотип Wooppay"
+
+#~ msgid "Pay via Wooppay"
+#~ msgstr "Оплатить через Wooppay"
+
+#~ msgid "This controls the description which the user sees during checkout."
+#~ msgstr ""
+#~ "Это управление описанием, которое пользователь видит во время оформления "
+#~ "заказа."
+
+#~ msgid "Order button text"
+#~ msgstr "Текст на кнопке Заказать"
+
+#~ msgid "Proceed to Wooppay"
+#~ msgstr "Оплатить через Wooppay"
+
+#~ msgid "If the field is blank, the standard text on the button"
+#~ msgstr "Если поле пустое, тогда на кнопке стандартный текст"
+
+#~ msgid "API Credentials"
+#~ msgstr "Данные API"
+
+#~ msgid "Login"
+#~ msgstr "Логин"
+
+#~ msgid "Your login"
+#~ msgstr "Ваш логин"
+
+#~ msgid "Password"
+#~ msgstr "Пароль"
+
+#~ msgid "Your password"
+#~ msgstr "Ваш пароль"
+
+#~ msgid "Test mode"
+#~ msgstr "Тестовый режим"
+
+#~ msgid "Enable test mode"
+#~ msgstr "Включить тестовый режим"
+
+#~ msgid "Wooppay error:"
+#~ msgstr "Ошибка Wooppay:"
+
+#~ msgid " Wooppay server is not responding, so please try again later."
+#~ msgstr " Wooppay сервер не отвечает, пожалуйста повторите попытку позже."
+
+#~ msgid "Kazakhstan Tenge"
+#~ msgstr "Казахстанский тенге"
+
+#~ msgid ""
+#~ "WooCommerce Wooppay Gateways depends on the last version of %s to work!"
+#~ msgstr ""
+#~ "WooCommerce Wooppay шлюз зависит от последней версии %s, чтобы работать!"
+
+#~ msgid "Connect"
+#~ msgstr "Подключить"
+
+#~ msgid "Heads up"
+#~ msgstr "Внимание"
+
+#~ msgid ""
+#~ "If you do not know how to get the client id and client secret, please use "
+#~ "the"
+#~ msgstr ""
+#~ "Если вы не знаете как получить client id и client secret, пожалуйста "
+#~ "воспользуйтесь"
+
+#~ msgid "help section"
+#~ msgstr "разделом помощи"
+
+#~ msgid "Connect Instagram"
+#~ msgstr "Подключить Instagram"
+
+#~ msgid "No more photos!"
+#~ msgstr "Ой! а больше фоток нету"
+
+#~ msgid "General Settings"
+#~ msgstr "Настройки"
+
+#~ msgid "Setting"
+#~ msgstr "Настройка"
+
+#~ msgid "Try to repeat later."
+#~ msgstr "Попробуйте повторить позже."
+
+#~ msgid "Attention!"
+#~ msgstr "Внимание!"
+
+#~ msgid "The cache is cleared."
+#~ msgstr "Кэш очищен."
+
+#~ msgid "Your changes have been saved!"
+#~ msgstr "Ваши изменения сохранены!"
+
+#~ msgid "Select page"
+#~ msgstr "Выберите страницу"
+
+#~ msgid "Gallerygram helps you to easily add instagram gallery on your site!"
+#~ msgstr ""
+#~ "Gallerygram поможет вам с легкостью добавить instagram галлерею на свой "
+#~ "сайт!"
+
+#~ msgid "User profile"
+#~ msgstr "Профиль"
+
+#~ msgid "Tag"
+#~ msgstr "Тег"
+
+#~ msgid "More Settings"
+#~ msgstr "Дополнительные настройки"
+
+#~ msgid "Number of images"
+#~ msgstr "Количество фотографий"
+
+#~ msgid "Width and height of images"
+#~ msgstr "Ширина и высота фотографий"
+
+#~ msgid "Background Color"
+#~ msgstr "Цвет фона"
+
+#~ msgid "Save changes"
+#~ msgstr "Сохранить изменения"
+
+#~ msgid "Reconnect Instagram"
+#~ msgstr "Переподключить Instagram"
+
+#~ msgid "Clear cache"
+#~ msgstr "Очистить кэш"
+
+#~ msgid "You have successfully connected Instagram!"
+#~ msgstr "Вы успешно подключили Instagram!"
+
+#~ msgid "and"
+#~ msgstr "и"
+
+#~ msgid "others like this"
+#~ msgstr "нравится это"
+
+#~ msgid ""
+#~ "In this section you will learn how to connect to your site Instagram, how "
+#~ "to get the client id and client secret."
+#~ msgstr ""
+#~ "В этом разделе вы узнаете как правильно подключить Instagram к своему "
+#~ "сайту, как получить client id и client secret."
+
+#~ msgid "First you need go to the website"
+#~ msgstr "Для начала вам нужно перейти на сайт"
+
+#~ msgid "developer Instagram"
+#~ msgstr "разработчика Instagram"
+
+#~ msgid "In upper-right corner you will see the login button."
+#~ msgstr "В правом вверхнем углу вы увидите кнопку входа."
+
+#~ msgid "After you logged, you need to click on Manage Clients."
+#~ msgstr "После того как вы вошли, вам нужно нажать на Управлять программами."
+
+#~ msgid "In the Manage Clients you need to choose Register a New Client."
+#~ msgstr ""
+#~ "В разделе Управлять программами вам нужно выбрать Регистрация новой "
+#~ "программы."
+
+#~ msgid ""
+#~ "After that, you may be asked to verify your account. In this step, you "
+#~ "will need to enter a mobile phone number, which will receive an SMS with "
+#~ "a verification code. This takes you to a page Register new Client ID."
+#~ msgstr ""
+#~ "После этого Вас могут попросить подтвердить свой аккаунт. В этом шаге вам "
+#~ "нужно будет ввести мобильный номер телефона, на который придет смс с "
+#~ "кодом подтверждения.После этого вы попадете на страницу Register new "
+#~ "Client ID"
+
+#~ msgid "Consider each field individually:"
+#~ msgstr "Рассмотрим каждое поле по отдельности:"
+
+#~ msgid "In this field we enter the name application, for example-"
+#~ msgstr "В этом поле вписываем название приложения, например- "
+
+#~ msgid ""
+#~ "Description field can be left blank, or write  for example- "
+#~ "<strong>Gallerygram- your photos from Instagram</strong>"
+#~ msgstr ""
+#~ "Поле описание можно оставить пустым, например или написать- "
+#~ "<strong>Gallerygram- ваши фотографии из Instagram</strong>"
+
+#~ msgid "Write URL of your Website:"
+#~ msgstr "Пишем адрес вашего сайта:"
+
+#~ msgid "Write:"
+#~ msgstr "Пишем:"
+
+#~ msgid "Now click on the button Register"
+#~ msgstr "Теперь нажимаем на кнопку Register"
+
+#~ msgid ""
+#~ "Congratulations application registered! Now you need to copy the client "
+#~ "id and client secret."
+#~ msgstr ""
+#~ "Поздравляю приложение зарегистрированно! Теперь Вам нужно скопировать "
+#~ "client id и client secret."
+
+#~ msgid "Copy corresponding fields in the plugin settings."
+#~ msgstr "Копируем в соответствующие поля в настройки плагина."
+
+#~ msgid "Client id and client secret stored in the database"
+#~ msgstr "Client id и client secret сохранены в базу"
+
+#~ msgid "get ID"
+#~ msgstr "узнать свой ID"
+
+#~ msgid "get"
+#~ msgstr "узнать"
+
+#~ msgid "FAQ"
+#~ msgstr "Часто задаваемые вопросы"
+
+#~ msgid "Setting Gallerygram"
+#~ msgstr "Настройка Gallerygram"

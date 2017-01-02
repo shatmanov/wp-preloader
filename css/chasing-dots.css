@@ -1,0 +1,57 @@
+/*
+ *  Usage:
+ *
+ *    <div class="wppl-chasing-dots">
+ *      <div class="wppl-child wppl-dot1"></div>
+ *      <div class="wppl-child wppl-dot2"></div>
+ *    </div>
+ *
+ */
+.wppl-chasing-dots {
+  margin: 40px auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  text-align: center;
+  -webkit-animation: wppl-chasingDotsRotate 2s infinite linear;
+          animation: wppl-chasingDotsRotate 2s infinite linear; }
+  .wppl-chasing-dots .wppl-child {
+    width: 60%;
+    height: 60%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    border-radius: 100%;
+    -webkit-animation: wppl-chasingDotsBounce 2s infinite ease-in-out;
+            animation: wppl-chasingDotsBounce 2s infinite ease-in-out; }
+  .wppl-chasing-dots .wppl-dot2 {
+    top: auto;
+    bottom: 0;
+    -webkit-animation-delay: -1s;
+            animation-delay: -1s; }
+
+@-webkit-keyframes wppl-chasingDotsRotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes wppl-chasingDotsRotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@-webkit-keyframes wppl-chasingDotsBounce {
+  0%, 100% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@keyframes wppl-chasingDotsBounce {
+  0%, 100% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
