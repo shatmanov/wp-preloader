@@ -5,4 +5,4 @@ WP preLoader is a preloader plugin for wordpress. This plugin will enable preloa
 
  <a href="http://www.youtube.com/watch?feature=player_embedded&v=Iuqa2LziAW0
 " target="_blank"><img src="http://img.youtube.com/vi/Iuqa2LziAW0/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+alt="wp-preloader" width="240" height="180" border="10" /></a>
