@@ -1,12 +1,24 @@
 <?php
 /*
-    Plugin Name: WP preLoader
-    Plugin URI: https://github.com/shatmanov/wp-preloader
-    Description: WP preLoader is a preloader plugin for wordpress. This plugin will enable preloader when loading your site. Visitor will see a loader.
-    Author: zhan.shatmanov
-    Version: 1.0.2
-    Author URI: https://shatmanov.com
+	@package   wp-preloader
+	@author    zhan.shatmanov zhan@shatmanov.com
+	@license   GPL-2.0+
+	@link      https://github.com/shatmanov/wp-preloader
+	@copyright 2014-2018 zhan.shatmanov
+	@wordpress-plugin
+	Plugin Name:       WP preLoader
+	Plugin URI:        https://github.com/shatmanov/wp-preloader
+	Description:       WP preLoader is a preloader plugin for wordpress. This plugin will enable preloader when loading your site. Visitor will see a loader.
+	Version:           1.0.3
+	Author:            zhan.shatmanov
+	Author URI:        https://shatmanov.com
+	Text Domain:       WPpreloader
+	License:           GPL-2.0+
+	License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
+	GitHub Plugin URI: https://github.com/shatmanov/wp-preloader
+	GitHub Branch:    master
 */
+
  /*define( 'WP_DEBUG', true );
  ini_set('display_errors', '1');
  ini_set('error_reporting', E_ALL);*/
@@ -15,7 +27,7 @@ if(preg_match('#' . basename(__FILE__) . '#', $_SERVER['PHP_SELF'])) { die('You 
 
 	$plugin_dir = basename(dirname(__FILE__));
 	load_plugin_textdomain('WPpreloader', false, "$plugin_dir/lang");
-	require_once( 'functions/update.php' );
+	require_once( 'BFIGitHubPluginUploader.php' );
 
 	// Если мы в адм. интерфейсе
 	if ( is_admin() ) {
@@ -24,7 +36,7 @@ if(preg_match('#' . basename(__FILE__) . '#', $_SERVER['PHP_SELF'])) { die('You 
 		add_action( 'admin_enqueue_scripts', 'mw_enqueue_color_picker' );
 
 		//обновление
-		new WPFDGitHubPluginUpdater( __FILE__, 'shatmanov', "wp-preloader" );
+		new BFIGitHubPluginUpdater( __FILE__, 'shatmanov', "wp-preloader" );
 	} else {
 		// Добавляем стили и скрипты
 		if (get_option('wppl_enable')=='on'){
