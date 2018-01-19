@@ -9,7 +9,7 @@
 	Plugin Name:       WP preLoader
 	Plugin URI:        https://github.com/shatmanov/wp-preloader
 	Description:       WP preLoader is a preloader plugin for wordpress. This plugin will enable preloader when loading your site. Visitor will see a loader.
-	Version:           1.0
+	Version:           1.0.4
 	Author:            zhan.shatmanov
 	Author URI:        https://shatmanov.com
 	Text Domain:       WPpreloader
