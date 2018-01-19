@@ -9,7 +9,7 @@
 	Plugin Name:       WP preLoader
 	Plugin URI:        https://github.com/shatmanov/wp-preloader
 	Description:       WP preLoader is a preloader plugin for wordpress. This plugin will enable preloader when loading your site. Visitor will see a loader.
-	Version:           1.0.3
+	Version:           1.0.4
 	Author:            zhan.shatmanov
 	Author URI:        https://shatmanov.com
 	Text Domain:       WPpreloader
@@ -19,9 +19,9 @@
 	GitHub Branch:    master
 */
 
- /*define( 'WP_DEBUG', true );
- ini_set('display_errors', '1');
- ini_set('error_reporting', E_ALL);*/
+ // define( 'WP_DEBUG', true );
+ // ini_set('display_errors', '1');
+ // ini_set('error_reporting', E_ALL);
 // Stop direct call
 if(preg_match('#' . basename(__FILE__) . '#', $_SERVER['PHP_SELF'])) { die('You are not allowed to call this page directly.'); }
 
@@ -36,7 +36,7 @@ if(preg_match('#' . basename(__FILE__) . '#', $_SERVER['PHP_SELF'])) { die('You 
 		add_action( 'admin_enqueue_scripts', 'mw_enqueue_color_picker' );
 
 		//обновление
-		new BFIGitHubPluginUpdater( __FILE__, 'shatmanov', "wp-preloader" );
+		new BFIGitHubPluginUpdater( __FILE__, 'shatmanov', "shatmanov-wp-preloader" );
 	} else {
 		// Добавляем стили и скрипты
 		if (get_option('wppl_enable')=='on'){
