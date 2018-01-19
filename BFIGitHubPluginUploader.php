@@ -27,7 +27,7 @@ class BFIGitHubPluginUpdater {
 	public function admin_notice() {
 		echo '<div class="notice notice-error is-dismissible">';
 			echo '<p><strong>Die Verfügbarkeit von Updates für das Plugin "WordPressToolset" kann im Moment nicht geprüft werden.</strong><br>';
-			echo 'Das Limit von ' . $this->headers['x-ratelimit-limit'] . ' API-Verbindungen zum <a href="https://github.com/johannheyne/wordpress-toolset" target="_blank">GitHub Repository des Plugins</a> war erreicht. Das Limit wird am ' . date( 'd.m.Y', $this->headers['x-ratelimit-reset'] ) . ' um ' . date( 'H:i', $this->headers['x-ratelimit-reset'] ) . ' Uhr wieder zurückgesetzt. Bitte prüfe dann noch einmal auf Updates.</p>';
+			echo 'Das Limit von ' . $this->headers['x-ratelimit-limit'] . ' API-Verbindungen zum <a href="https://github.com/'.$this->username.'/'.$this->repo.'" target="_blank">GitHub Repository des Plugins</a> war erreicht. Das Limit wird am ' . date( 'd.m.Y', $this->headers['x-ratelimit-reset'] ) . ' um ' . date( 'H:i', $this->headers['x-ratelimit-reset'] ) . ' Uhr wieder zurückgesetzt. Bitte prüfe dann noch einmal auf Updates.</p>';
 		echo '</div>';
 	}
 	// Get information regarding our plugin from GitHub
@@ -168,7 +168,7 @@ class BFIGitHubPluginUpdater {
 				foreach ( $this->githubAPIResults as $key => $item ) {
 					if ( version_compare( $this->pluginData['Version'], $item->tag_name, '<' ) ) {
 						$description_content[ $item->tag_name ] = '......................................................................................................................' . "\n\n";
-						$description_content[ $item->tag_name ] .= '[Release v' . $item->tag_name . '](https://github.com/johannheyne/wordpress-toolset/releases/tag/' . $item->tag_name . ')' . "\n\n";
+						$description_content[ $item->tag_name ] .= '[Release v' . $item->tag_name . '](https://github.com/'.$this->username.'/'.$this->repo.'/releases/tag/' . $item->tag_name . ')' . "\n\n";
 						//$description_content[ $item->tag_name ] .= date( "Y.m.d H.i.s", strtotime( $item->published_at ) ) . "\n\n";
 						$description_content[ $item->tag_name ] .= str_replace( '####', '##', $item->body );
 						$description_content[ $item->tag_name ] = preg_replace( "/requires WordPress:\s([\d\.]+)/i", '', $description_content[ $item->tag_name ] );
